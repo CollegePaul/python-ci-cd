@@ -6,5 +6,7 @@ app = Flask(__name__)
 def index():
     return "Hello, World!"
 
+
+#ensure this is the main application
 if __name__ == "__main__":
     app.run()
